@@ -1,0 +1,29 @@
+# --- CASOS VÁLIDOS ---
+[INFO] 2025-01-10 User logged in successfully
+· [ERROR] 2025-01-10 Failed to connect to database
+- [WARNING] 2025-06-15 Disk space is reaching 90%
+* [INFO] 2025-12-31 System backup completed
+
+# --- ESPACIOS Y FORMATO DE TEXTO (CASOS BORDE VÁLIDOS) ---
+   [INFO] 2025-01-10 User logged in with leading spaces
+[info] 2025-01-10 Severidad en minusculas debe ser valida
+
+# --- FECHAS FALTANTES O MAL FORMATEADAS ---
+· [WARNING] Invalid password attempt
+[ERROR] 2025-13-45 Month and day out of range
+[INFO] 10-01-2025 Formato DD-MM-YYYY invalido
+[WARNING] 2025/01/10 Formato con barras diagonales
+[ERROR] 2025-02-31 Fecha inexistente (febrero no tiene 31 dias)
+
+# --- MENSAJES FALTANTES O SEVERIDADES DESCONOCIDAS (LÍNEAS MAL FORMATEADAS) ---
+[CRITICAL] 2025-01-10 System crashed completely
+[INFO] 2025-01-10 
+[INVALID_TAG] This is not a valid log entry
+2025-01-10 Linea sin nivel de severidad
+
+# --- CARACTERES EXTRAÑOS Y CASOS LÍMITE ---
+[ERROR] 2025-01-10 Mensaje con corchetes [extra] y caracteres especiales: áéíóú Ñ!@#$%^&*()
+· · · [INFO] Multiple bullet symbols before tag
+[WARNING]2025-01-10 Sin espacio entre tag y fecha
+
+# --- LÍNEAS BLANCAS Y SALTOS DE LÍNEA (DEBEN SER IGNORADAS) ---

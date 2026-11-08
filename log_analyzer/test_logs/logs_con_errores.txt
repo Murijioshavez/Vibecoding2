@@ -1,0 +1,7 @@
+[INFO] 2025-02-30 Impossible calendar date
+[DEBUG] 2025-01-10 Unrecognized level
+[WARNING] Invalid password attempt without date
+[ERROR] 2025-03-01
+2025-01-10 Message without severity
+[INFO] 10/01/2025 Unsupported date style
+[INFO 2025-01-10 Broken bracket

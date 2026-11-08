@@ -1,0 +1,4 @@
+[INFO] 2025-01-10 User logged in
+[WARNING] 2025-01-11 Invalid password attempt
+[ERROR] 2025-01-12 Failed to connect to database
+[INFO] 2024-02-29 Backup completed successfully

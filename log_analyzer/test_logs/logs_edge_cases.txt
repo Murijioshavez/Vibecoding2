@@ -1,0 +1,8 @@
+
+   
+[INFO]   2025-01-10    Extra spaces are accepted   
+[ERROR] 2024-02-30 Impossible leap day
+[WARNING] 2025-01-11 Symbols: #$% / retry=3
+[INFO] 2025-01-12
+[UNKNOWN] 31/12/2025
+[ERROR] 2025-01-13 Usuario número 7 inició sesión ✓
